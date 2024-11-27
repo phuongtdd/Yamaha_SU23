@@ -1,0 +1,144 @@
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 20px 10px 10px 10px;
+}
+
+.text-header {
+    width: 33.3%;
+    text-align: center;
+    color: red;
+}
+
+.logo {
+    width: 33.3%;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 125px;
+}
+
+.search {
+    width: 33.3%;
+}
+
+/* navbar */
+.me .menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* section-1 */
+
+
+.description h1 {
+    color: #0EC0C3;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.description p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.section-1 {
+    margin: 0;
+}
+
+.section-1 img {
+    width: 90%;
+}
+
+.section-1 :first-child {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section-1 :first-child img {
+    width: 50%;
+}
+
+/* section-2 */
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.best-seller {
+    margin: 0;
+}
+
+.best-seller h1 {
+    text-align: center;
+    color: #0EC0C3;
+}
+
+.best-seller img {
+    height: 375px;
+}
+
+.best-seller p {
+    text-align: justify;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.best-seller h3 {
+    padding-left: 0px;
+    color: orange;
+}
+
+/* section-3 */
+
+.order h1 {
+    text-align: center;
+    color: #0EC0C3;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #0EC0C3;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer p,
+h5 {
+    text-align: center;
+    color: white;
+}
+
+/* media */
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-header .logo .search {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+}
